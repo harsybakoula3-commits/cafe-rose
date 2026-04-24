@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.Css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Rose</title>
+</head>
+<body>
+    <!-- En tête avec le logo à gauche et le menu à droite -->
+     <header>
+        <!-- Le conteneur pour englober le logo et le menu -->
+         <div class="nav-container">
+            <!-- Le logo est le nom du site-->
+             <h1 class="logo">CAFE<span> ROSE</span></h1>
+             <!-- Le menu de notre site à droite-->
+              <nav>
+                <!-- Le menu de notre site-->
+                <ul class="nav-links">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Notre Histoire</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Commander</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+         </div>
+     </header>
+     <!-- Prémière section: Image principale-->
+        <section class="hero">
+            <img src="a10.jpg" alt="Image de présentation du café">
+        </section>
+        <!-- Deuxième section: contenant le formulaire à gauche et la vidéo à droite-->
+         <section class="content-section">
+
+            <!-- Conteneur pour englober le formulaire et la vidéo-->
+
+             <!-- Formulaire-->
+            <div class="form-section">
+                <h2>Formulaire d'inscription</h2>
+                <form action="" method="post">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse" required>
+
+                    <label for="telephone">Téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password"  name="password" required>
+
+                    <label for="cpassword">Confirmer le mot de passe :</label>
+                    <input type="password" id="cpassword" name="cpassword" required>
+
+                    <button type="submit">Sinscrire</button>
+                </form>
+                
+
+            </div>
+            <!-- Vidéo-->
+            <div class="video-section">
+                <video controls autoplay muted>
+                    <source src="formation.mp4" type="Video/mp4">
+                    Votre naviguateur ne supporte pas la vidéo
+                </video>
+
+            </div>
+
+         </section>
+         <!-- Pied de page-->
+          <footer>
+            <p>Ce site a été conçu dans le cadre du cours du SEO, D-clic - 2026</p>
+          </footer>
+</body>
+</html>
